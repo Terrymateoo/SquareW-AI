@@ -32,9 +32,9 @@ function aiWork(results) {
 }
 
 function draw() {
-    background('303030');
+    background('#303030');
     document.getElementById("SS").innerHTML = "El tamaño del cuadrado es: " + Wspace; + "px";
-    fill('ffffff');
-    stroke('000000');
+    fill('#000000');
+    stroke('#000000');
     square(NosePX, NosePY, Wspace);
 }
